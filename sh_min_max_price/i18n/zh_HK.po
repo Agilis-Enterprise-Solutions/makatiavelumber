@@ -1,0 +1,88 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sh_min_max_price
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.1alpha1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-26 07:19+0000\n"
+"PO-Revision-Date: 2020-09-26 07:19+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sh_min_max_price
+#: model:res.groups,name:sh_min_max_price.group_sale_order_product_price
+msgid "Allow confirm product sale price"
+msgstr "允许确认产品销售价格"
+
+#. module: sh_min_max_price
+#: model:ir.model.fields,field_description:sh_min_max_price.field_product_template__display_name
+#: model:ir.model.fields,field_description:sh_min_max_price.field_sale_order__display_name
+#: model:ir.model.fields,field_description:sh_min_max_price.field_sale_order_line__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: sh_min_max_price
+#: model:ir.model.fields,field_description:sh_min_max_price.field_product_template__id
+#: model:ir.model.fields,field_description:sh_min_max_price.field_sale_order__id
+#: model:ir.model.fields,field_description:sh_min_max_price.field_sale_order_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sh_min_max_price
+#: model:ir.model.fields,field_description:sh_min_max_price.field_product_template____last_update
+#: model:ir.model.fields,field_description:sh_min_max_price.field_sale_order____last_update
+#: model:ir.model.fields,field_description:sh_min_max_price.field_sale_order_line____last_update
+msgid "Last Modified on"
+msgstr "最后修改时间"
+
+#. module: sh_min_max_price
+#: model:ir.model.fields,field_description:sh_min_max_price.field_sale_order_line__pro_max_sale_price
+msgid "Maximum Price"
+msgstr "最高价"
+
+#. module: sh_min_max_price
+#: model:ir.model.fields,field_description:sh_min_max_price.field_product_product__pro_max_sale_price
+#: model:ir.model.fields,field_description:sh_min_max_price.field_product_template__pro_max_sale_price
+msgid "Maximum Sale Price"
+msgstr "最高销售价"
+
+#. module: sh_min_max_price
+#: model:ir.model.fields,field_description:sh_min_max_price.field_sale_order_line__pro_min_sale_price
+msgid "Minimum Price"
+msgstr "最低价格"
+
+#. module: sh_min_max_price
+#: model:ir.model.fields,field_description:sh_min_max_price.field_product_product__pro_min_sale_price
+#: model:ir.model.fields,field_description:sh_min_max_price.field_product_template__pro_min_sale_price
+msgid "Minimum Sale Price"
+msgstr "最低销售价"
+
+#. module: sh_min_max_price
+#: model:ir.model,name:sh_min_max_price.model_product_template
+msgid "Product Template"
+msgstr "产品模板"
+
+#. module: sh_min_max_price
+#: model:ir.model,name:sh_min_max_price.model_sale_order
+msgid "Sales Order"
+msgstr "销售订单"
+
+#. module: sh_min_max_price
+#: model:ir.model,name:sh_min_max_price.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "销售订单行"
+
+#. module: sh_min_max_price
+#: model:res.groups,comment:sh_min_max_price.group_sale_order_product_price
+msgid ""
+"This user can allow sale order product price other than specified price "
+"limit on confirm order."
+msgstr ""
+"该用户可以允许指定价格以外的销售订单产品价格"
+"限制确认订单。"
